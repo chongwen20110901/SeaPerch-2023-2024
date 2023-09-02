@@ -24,7 +24,42 @@
 \pagebreak
 
 \section{Abstract}
+The pool course of the SeaPerch challenge is divided up into two parts: the obstacle course and the mission course. The obstacle course requires the robot to travel through a series of hoops, situated at different angles underwater, in the shortest amount of time possible. The main challenges of the obstacle course are the ROV’s speed, maneuverability, and the driver’s coordination. In order to travel through hoops fast, the robot has to have high velocity and agility. Moreover, experience from past competitions have proven to us that the driver’s familiarity with the robot is equally important to the robot’s technical performance. Because the low fault tolerance nature of the obstacle course, high consistency is required for the drivers. Cable-managing also plays a key role in the successful completion of the obstacle course. If the robot takes different routes on the round trip through the hoops, the cable will certainly tangle on the hoops, causing huge time loss. For such reason, the cable manager needs to keep track of the robot’s route on the way forth, in order to navigate the driver on the way back. Such collaboration between the driver and the cable manager is an essential part of daily training, as we developed catchphrases such as “from above”, “from below” to inform the driver.
+
 \section{Task Overview}
+\subsection{Engineering Design Process}
+\begin{enumerate}
+	\item Test out the current robot, document experimental results and identify key areas of improvement (e.g., speed, mobility, stability, maneuverability, etc.).
+	\item Design solutions and implement changes to the robot.
+	\item Test our changes, record experimental data, taking into consideration the drivers’ feedback.
+	\item Compare and contrast data from the previous design.
+	\item If the results are positive, the change is kept; If results are negative, we roll back to the previous design.
+	\item Repeat Step 1 during practices, see if it is further applicable.
+\end{enumerate}
+
+\subsection{Last Year's Robot}
+The main characteristic of our last generation robot was its unmatchable speed. It was the fastest robot we have ever built, achieving an average speed of 1.1 m/s in underwater tests. The whole system can be divided down to five parts: frame, engine, cable, controller, and battery. By modularizing in this way, we can easily replace any part that malfunctions. The frame itself was mainly made from PEX pipes, bended in a triangular shape to ensure hydrodynamic efficiency. In order to maximize speed, we left everything hallow except for the outer rim, and balanced out the buoyancy through the installation of foam. The engines were contained in modified easter eggs, with their unique shape guaranteeing hydrodynamic efficiency. As for the cable, we designed waterproof connectors (small metal joints wrapped in tape), enabling us to disconnect the robot from the rest of the cable. In this way, we can replace the cable (which has been proven to be very fragile during regionals last year) without touching the robot itself, saving us a lot of time for troubleshooting under the possible circumstance that the cable malfunctions.
+In the obstacle course, the robot performed extremely well, as its agility and speed enabled us to outcompete almost all other competitors. In practice, we were able to achieve an average time of 25s. In the mission course, we engineered a hook that effectively completes the designated task. However, the speed of the robot proved to be a problem for the mission course driver, as it was hard to control at times and significantly reduced our consistency. This year, we plan to further increase the robot’s speed, while ensuring its maneuverability for the drivers.
+
+\subsection{New Generation}
+\subsection*{Modified Engine Shape}
+\dots
+\subsection*{Revisions to The Engine Compartment}
+In last year’s robot, we used plastic easter eggs as the outer shells of our motors. The easter eggs proved to be hydrodynamically efficient and light weight. This year, we switched to the engine shells that are originally designed in Onshape and Tinkercad, and 3D printed.
+\begin{center}
+	There are several advantages to using self-designed, 3D printed engine shells:
+\end{center}
+\begin{enumerate}
+	\item Modularization and easy troubleshooting: Last year, the engine compartments were fixed onto the robot’s frame with screws. Such design limited the angles to which we can adjust the engines, causing difficulties when calibrating the robot. Furthermore, it turned out to be troublesome when we encounter engine failures. It was relatively difficult and time consuming to replace the malfunctional engines. This year, with 3D printed engine shells, we designed spherical joints that allowed for easy disassembly and adjustment.
+	\\When the 3D printed joint structure is first installed, we encounter various difficulties with its structural strength, as they proved to be extreme fragile under collision. In order to solve this issue, we…
+
+	\item Optimal hydrodynamic efficiency: Although last year’s easter eggs were already low drag in water, we decided to take a step further with optimizing its efficiency. With these new self-designed engine shells, we reduced engine drag to a further extent, thus increasing the robot’s velocity. 3D printing allowed us to design and experiment with different engine shapes. With our EDP (Engineering Design Process), we were able to determine which engine shape worked the best.
+
+	\item Further reduction of weight and production costs:
+
+\end{enumerate}
+
+
 \section{Design Approach}
 \section{Experimental Results}
 \section{Reflection}
