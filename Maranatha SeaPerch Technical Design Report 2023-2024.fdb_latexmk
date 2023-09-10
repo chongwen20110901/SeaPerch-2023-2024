@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Maranatha SeaPerch Technical Design Report 2023-2024"] 0 "Maranatha SeaPerch Technical Design Report 2023-2024.bcf" "Maranatha SeaPerch Technical Design Report 2023-2024.bbl" "Maranatha SeaPerch Technical Design Report 2023-2024" 1693641574 -1
-  "Maranatha SeaPerch Technical Design Report 2023-2024.bcf" 1693641574 107256 bbb7563979c1f9afdf84ee4ba713182f "pdflatex"
+["biber Maranatha SeaPerch Technical Design Report 2023-2024"] 0 "Maranatha SeaPerch Technical Design Report 2023-2024.bcf" "Maranatha SeaPerch Technical Design Report 2023-2024.bbl" "Maranatha SeaPerch Technical Design Report 2023-2024" 1694305908 -1
+  "Maranatha SeaPerch Technical Design Report 2023-2024.bcf" 1694305908 107256 bbb7563979c1f9afdf84ee4ba713182f "pdflatex"
   (generated)
   "Maranatha SeaPerch Technical Design Report 2023-2024.bbl"
   "Maranatha SeaPerch Technical Design Report 2023-2024.blg"
   (rewritten before read)
-["pdflatex"] 1693641573 "/Users/hanzhiliu/Desktop/MHS/Science Club 2023-2024/SeaPerch 2023-2024/Maranatha SeaPerch Technical Design Report 2023-2024.tex" "Maranatha SeaPerch Technical Design Report 2023-2024.pdf" "Maranatha SeaPerch Technical Design Report 2023-2024" 1693641574 0
-  "/Users/hanzhiliu/Desktop/MHS/Science Club 2023-2024/SeaPerch 2023-2024/Maranatha SeaPerch Technical Design Report 2023-2024.tex" 1693641573 7127 330b6aa77944252ed4ea9f5164cffb37 ""
+["pdflatex"] 1694305908 "/Users/hanzhiliu/Desktop/MHS/Science Club 2023-2024/SeaPerch 2023-2024/Maranatha SeaPerch Technical Design Report 2023-2024.tex" "Maranatha SeaPerch Technical Design Report 2023-2024.pdf" "Maranatha SeaPerch Technical Design Report 2023-2024" 1694305908 0
+  "/Users/hanzhiliu/Desktop/MHS/Science Club 2023-2024/SeaPerch 2023-2024/Maranatha SeaPerch Technical Design Report 2023-2024.tex" 1694305908 8818 af3554f21e30bd736645a7175db30bdd ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -31,6 +31,8 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
@@ -74,15 +76,16 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1279039959 678 4792914a8f45be57bb98413425e4c7af ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def" 1284153563 1620 fb1c32b818f2058eca187e5c41dfae77 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty" 1284153563 6187 b27afc771af565d3a9ff1ca7d16d0d46 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/tools/indentfirst.sty" 1654720880 1618 6f0598aa81f9ba5cf5d393b4abd3e091 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1677365944 40745 87bb86a62d462f93a1efc6b0c65c872e ""
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1693582347 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1693582295 7883465 2a151ba6d1547f3b6f3f64846a51353f ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Maranatha SeaPerch Technical Design Report 2023-2024.aux" 1693641574 1190 27ac78b805e19969b90dea0810728b6d "pdflatex"
-  "Maranatha SeaPerch Technical Design Report 2023-2024.bbl" 1693640276 0 d41d8cd98f00b204e9800998ecf8427e "biber Maranatha SeaPerch Technical Design Report 2023-2024"
-  "Maranatha SeaPerch Technical Design Report 2023-2024.run.xml" 1693641574 2574 45b51b41999f8feb7a2a008dcba47f62 "pdflatex"
-  "Maranatha SeaPerch Technical Design Report 2023-2024.tex" 1693641573 7127 330b6aa77944252ed4ea9f5164cffb37 ""
+  "Maranatha SeaPerch Technical Design Report 2023-2024.aux" 1694305908 1190 8f8ca2cc8e03076874d9ff52ac18069b "pdflatex"
+  "Maranatha SeaPerch Technical Design Report 2023-2024.bbl" 1694304624 0 d41d8cd98f00b204e9800998ecf8427e "biber Maranatha SeaPerch Technical Design Report 2023-2024"
+  "Maranatha SeaPerch Technical Design Report 2023-2024.run.xml" 1694305908 2574 45b51b41999f8feb7a2a008dcba47f62 "pdflatex"
+  "Maranatha SeaPerch Technical Design Report 2023-2024.tex" 1694305908 8818 af3554f21e30bd736645a7175db30bdd ""
   (generated)
   "Maranatha SeaPerch Technical Design Report 2023-2024.aux"
   "Maranatha SeaPerch Technical Design Report 2023-2024.bcf"

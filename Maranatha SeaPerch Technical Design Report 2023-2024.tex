@@ -8,6 +8,8 @@
 \usepackage{amssymb}
 \usepackage{biblatex}
 
+\usepackage{indentfirst}
+
 %SetFonts
 
 %SetFonts
@@ -48,7 +50,7 @@
 \section{Abstract}
 
 \section{Task Overview}
-The pool course of the SeaPerch challenge is divided up into two parts: the obstacle course and the mission course. The obstacle course requires the robot to travel through a series of hoops, situated at different angles underwater, in the shortest amount of time possible. The main challenges of the obstacle course are the ROV’s speed, maneuverability, and the driver’s coordination. In order to travel through hoops fast, the robot has to have high velocity and agility. Moreover, experience from past competitions have proven to us that the driver’s familiarity with the robot is equally important to the robot’s technical performance. Because the low fault tolerance nature of the obstacle course, high consistency is required for the drivers. Cable-managing also plays a key role in the successful completion of the obstacle course. If the robot takes different routes on the round trip through the hoops, the cable will certainly tangle on the hoops, causing huge time loss. For such reason, the cable manager needs to keep track of the robot’s route on the way forth, in order to navigate the driver on the way back. Such collaboration between the driver and the cable manager is an essential part of daily training, as we developed catchphrases such as “from above”, “from below” to inform the driver.
+	The pool course of the SeaPerch challenge is divided up into two parts: the obstacle course and the mission course. The obstacle course requires the robot to travel through a series of hoops, situated at different angles underwater, in the shortest amount of time possible. The main challenges of the obstacle course are the ROV’s speed, maneuverability, and the driver’s coordination. In order to travel through hoops fast, the robot has to have high velocity and agility. Moreover, experience from past competitions have proven to us that the driver’s familiarity with the robot is equally important to the robot’s technical performance. Because the low fault tolerance nature of the obstacle course, high consistency is required for the drivers. Cable-managing also plays a key role in the successful completion of the obstacle course. If the robot takes different routes on the round trip through the hoops, the cable will certainly tangle on the hoops, causing huge time loss. For such reason, the cable manager needs to keep track of the robot’s route on the way forth, in order to navigate the driver on the way back. Such collaboration between the driver and the cable manager is an essential part of daily training, as we developed catchphrases such as “from above”, “from below” to inform the driver.
 
 Information concerning the mission course has not been released.
 
@@ -64,14 +66,37 @@ Information concerning the mission course has not been released.
 \end{enumerate}
 
 \subsection{Last Year's Robot}
-The main characteristic of our last generation robot was its unmatchable speed. It was the fastest robot we have ever built, achieving an average speed of 1.1 m/s in underwater tests. The whole system can be divided down to five parts: frame, engine, cable, controller, and battery. By modularizing in this way, we can easily replace any part that malfunctions. The frame itself was mainly made from PEX pipes, bended in a triangular shape to ensure hydrodynamic efficiency. In order to maximize speed, we left everything hallow except for the outer rim, and balanced out the buoyancy through the installation of foam. The engines were contained in modified easter eggs, with their unique shape guaranteeing hydrodynamic efficiency. As for the cable, we designed waterproof connectors (small metal joints wrapped in tape), enabling us to disconnect the robot from the rest of the cable. In this way, we can replace the cable (which has been proven to be very fragile during regionals last year) without touching the robot itself, saving us a lot of time for troubleshooting under the possible circumstance that the cable malfunctions.
-In the obstacle course, the robot performed extremely well, as its agility and speed enabled us to outcompete almost all other competitors. In practice, we were able to achieve an average time of 25s. In the mission course, we engineered a hook that effectively completes the designated task. However, the speed of the robot proved to be a problem for the mission course driver, as it was hard to control at times and significantly reduced our consistency. This year, we plan to further increase the robot’s speed, while ensuring its maneuverability for the drivers.
+	The main characteristic of our last generation robot was its unmatchable speed. It was the fastest robot we have ever built, achieving an average speed of 1.1 m/s in underwater tests. The whole system can be divided down to five parts: frame, engine, cable, controller, and battery. By modularizing in this way, we can easily replace any part that malfunctions. The frame itself was mainly made from PEX pipes, bended in a triangular shape to ensure hydrodynamic efficiency. In order to maximize speed, we left everything hallow except for the outer rim, and balanced out the buoyancy through the installation of foam. The engines were contained in modified easter eggs, with their unique shape guaranteeing hydrodynamic efficiency. As for the cable, we designed waterproof connectors (small metal joints wrapped in tape), enabling us to disconnect the robot from the rest of the cable. In this way, we can replace the cable (which has been proven to be very fragile during regionals last year) without touching the robot itself, saving us a lot of time for troubleshooting under the possible circumstance that the cable malfunctions.
+	In the obstacle course, the robot performed extremely well, as its agility and speed enabled us to outcompete almost all other competitors. In practice, we were able to achieve an average time of 25s. In the mission course, we engineered a hook that effectively completes the designated task. However, the speed of the robot proved to be a problem for the mission course driver, as it was hard to control at times and significantly reduced our consistency. This year, we plan to further increase the robot’s speed, while ensuring its maneuverability for the drivers.
 
 \subsection{New Generation}
-\subsubsection*{Modified Engine Shape}
-\dots
+\subsubsection*{Robot Body}
+	To further increase the robot's velocity and maneuverability, we decided to remove foam from the body. In this way, we removed unnecessary mass and reduced drag in water. To counteract the loss of buoyancy associated with the removal of foam, we made changes to the shape and dimensions of the robot body.
+
+	Bouyancy in liquid can be calculated with the formula $F_b=\rho g V$, where $\rho$ is the density of the liquid, and V is the volume submerged. By lengthening the robot, we increased the volume of the robot, effectively increasing the bouyancy underwater. Without the usage of any foam, we achieved a level of bouyancy similar to last generation, while cutting down mass and drag.
+
+\begin{center}
+	\scalebox{0.8}{
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		& Mass (kg) & Weight on Ground (N) & Weight Measured in Water & Bouyancy (N)\\
+		\hline
+		Previous Generation & 0.46 & 4.508 & 0.735 &  3.773\\
+		\hline
+		Current Generation & 0.36 & 3.528 & 0.245 & 3.283 \\
+		\hline
+	\end{tabular}
+	}
+\end{center}
+
+	With decreased mass, the robot is able to gain higher velocity. According to Newton's Second Law $F=ma$, where $F$ is the external force, $m$ is mass, and $a$ is linear acceleration. In our case, $F$ remains the same, while $m$ decreases, meaning that $a$ increases. In practical sense, this means that our robot is able to obtain faster velocity with the same acceleration time/distance.
+
+	Moreover, the robot is also able to rotate faster by having higher angular acceleration. The relationship between torque ($\tau$), rotational inertia ($I$), and angular acceleration ($\alpha$) is modelled by the equation $\tau=I \alpha$.
+
+
+
 \subsubsection*{Revisions to The Engine Compartment}
-In last year’s robot, we used plastic easter eggs as the outer shells of our motors. The easter eggs proved to be hydrodynamically efficient and light weight. This year, we switched to the engine shells that are originally designed in Onshape and Tinkercad, and 3D printed.
+	In last year’s robot, we used plastic easter eggs as the outer shells of our motors. The easter eggs proved to be hydrodynamically efficient and light weight. This year, we switched to the engine shells that are originally designed in Onshape and Tinkercad, and 3D printed.
 \begin{center}
 	There are several advantages to using self-designed, 3D printed engine shells:
 \end{center}
@@ -84,6 +109,8 @@ In last year’s robot, we used plastic easter eggs as the outer shells of our m
 	\item Further reduction of weight and production costs:
 
 \end{enumerate}
+
+\subsection*{Adjustable Hinge}
 
 
 \section{Design Approach}
